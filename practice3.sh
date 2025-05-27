@@ -109,7 +109,7 @@ for i in {1..8}; do
   if [ $i -eq 4 ]; then
     dd if=/dev/zero bs=1024 count=1 | tr '\0' 'X' > $RESULTS_FILE
     # Replace some content with the clue
-    CLUE="IMPORTANT: Check the last modified file in the office/emails directory for your next instruction."
+    CLUE="IMPORTANT: Check the largest file in the office/emails directory for your next instruction."
     POSITION=$((RANDOM % 900))
     echo "${CLUE}" | dd of=$RESULTS_FILE bs=1 seek=$POSITION conv=notrunc
   else
