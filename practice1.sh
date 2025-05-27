@@ -36,4 +36,4 @@ mkdir -p level1/level2/level3/alternate/path1/path3/final/.system
 dd if=/dev/zero of=level1/level2/level3/alternate/path1/path3/final/.system/target.dat bs=1K count=2 2>/dev/null
 chmod 400 level1/level2/level3/alternate/path1/path3/final/.system/target.dat
 
-echo "Nested Labyrinth challenge setup complete. Begin at $USER_HOME/practice1"
+echo "Nested Labyrinth challenge setup complete. Begin at $USER_HOME/practice/practice1"
