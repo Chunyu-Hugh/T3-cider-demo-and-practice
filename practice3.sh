@@ -4,7 +4,7 @@
 USER_HOME=$(eval echo ~${USER})
 BASE_DIR="$USER_HOME/practice/practice3"
 # Create base directory structure
-mkdir -p "$BASE_DIR/detective_challenge/{office,warehouse,archives,lab,server_room,maintenance}"
+mkdir -p "$BASE_DIR/detective_challenge"
 cd "$BASE_DIR/detective_challenge"
 
 # Create subdirectories to increase complexity
