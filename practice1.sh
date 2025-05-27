@@ -4,8 +4,8 @@
 USER_HOME=$(eval echo ~${USER})
 
 # Create base directory structure
-mkdir -p "$USER_HOME/practice1"
-cd "$USER_HOME/practice1"
+mkdir -p "$USER_HOME/practice/practice1"
+cd "$USER_HOME/practice/practice1"
 
 # Create deeply nested directory structure
 mkdir -p level1/level2/level3/dead_end
