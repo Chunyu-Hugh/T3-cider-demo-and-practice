@@ -1,8 +1,11 @@
+
 #!/bin/bash
 
+USER_HOME=$(eval echo ~${USER})
+BASE_DIR="$USER_HOME/practice/practice3"
 # Create base directory structure
-mkdir -p ~/detective_challenge/{office,warehouse,archives,lab,server_room,maintenance}
-cd ~/detective_challenge
+mkdir -p "$BASE_DIR/detective_challenge/{office,warehouse,archives,lab,server_room,maintenance}"
+cd "$BASE_DIR/detective_challenge"
 
 # Create subdirectories to increase complexity
 mkdir -p office/{documents,emails,calendar}
